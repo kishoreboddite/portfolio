@@ -32,7 +32,6 @@ export default {
     color: black;
 }
 
-
 img {
     height: 150px;
     width: 150px;

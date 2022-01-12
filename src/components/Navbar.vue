@@ -4,7 +4,7 @@
     <img :src= "require('@/assets/icons/horns-sign.png')"/>
     <h2>KISHORE BODDITE</h2>
     </div>
-    <nav>
+    <nav class="mobile">
         <ul>
             <li><a href="#">PROJECTS</a></li>
             <li><a href="#">ABOUT</a></li>
@@ -12,6 +12,7 @@
             <li><a href="#">SAY HI</a></li>
         </ul>
     </nav>
+    <div class="hamburger"></div>
 </header>
 
 
@@ -36,20 +37,13 @@ header {
 	display: flex;
 	align-items: center;
     justify-content:space-evenly;
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9);
     position: fixed;
     opacity: 0;
-    animation: 1s fadein 0.5s forwards;
     top: 0;
     width: 100%;
     filter:blur(-6px) ;
 }
-@keyframes fadein {
-	100% {
-		opacity: 1;
-	}
-}
-
 img{
     height: 60px;
     width: 60px;
@@ -68,6 +62,6 @@ ul,.logo{
     flex-direction: row;
 }
 
+ 
 
-
-</style>
+</style> 
