@@ -36,19 +36,20 @@ header {
 	display: flex;
 	align-items: center;
     justify-content:space-evenly;
-	animation: 1s fadein 0.5s forwards;
-	opacity: 0;
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     position: fixed;
+    opacity: 0;
+    animation: 1s fadein 0.5s forwards;
     top: 0;
     width: 100%;
     filter:blur(-6px) ;
 }
 @keyframes fadein {
 	100% {
-		opacity: 0.75;
+		opacity: 1;
 	}
 }
+
 img{
     height: 60px;
     width: 60px;

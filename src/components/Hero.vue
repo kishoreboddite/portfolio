@@ -30,13 +30,8 @@ export default {
     align-items: center;
     text-align: center;
     color: black;
-    animation: 1s fadein 0.5s forwards;
-
 }
-@keyframes fadein {
-	100% {
-		opacity: 0.75;
-	}
+
 
 img {
     height: 150px;
