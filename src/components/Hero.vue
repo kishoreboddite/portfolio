@@ -30,15 +30,19 @@ export default {
     align-items: center;
     text-align: center;
     color: black;
+    animation: 1s fadein 0.5s forwards;
 
 }
+@keyframes fadein {
+	100% {
+		opacity: 0.75;
+	}
 
 img {
     height: 150px;
     width: 150px;
     border: 6px solid lightblue;
     border-radius: 50%;
-
 }
 .small{
     font-size: 28px;
@@ -49,8 +53,9 @@ img {
 }
 .txt{
     font-size: 20px;
-    width: 75%;
+    width: 65%;
     margin-top:-40px;
+    
 }
 
 
